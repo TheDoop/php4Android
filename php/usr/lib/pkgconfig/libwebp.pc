@@ -1,0 +1,11 @@
+prefix=/data/data/com.termux/files/usr
+exec_prefix=${prefix}
+libdir=/data/data/com.termux/files/usr/lib
+includedir=${prefix}/include
+
+Name: libwebp
+Description: Library for the WebP graphics format
+Version: 1.0.3
+Cflags: -I${includedir}
+Libs: -L${libdir} -lwebp
+Libs.private: -lm  

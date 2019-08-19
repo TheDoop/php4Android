@@ -1,0 +1,6 @@
+id=php4android
+name=PHP for arm64 android devices
+version=v1
+versionCode=1
+author=@FDoop, @parduscix
+description=PHP for arm64 android devices
